@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiteTheBullet.BTBRandomImage", "BiteTheBullet.BTBRandomImage.csproj", "{A808D651-A94A-4BC4-93FD-5CAAE77CED85}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiteTheBullet.BTBRandomImage.SqlDataProvider", "Providers\SqlDataProvider\BiteTheBullet.BTBRandomImage.SqlDataProvider.csproj", "{0FA96C5D-042A-4FA1-8384-690E28E413BC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A808D651-A94A-4BC4-93FD-5CAAE77CED85}.Debug.ActiveCfg = Debug|.NET
+		{A808D651-A94A-4BC4-93FD-5CAAE77CED85}.Debug.Build.0 = Debug|.NET
+		{A808D651-A94A-4BC4-93FD-5CAAE77CED85}.Release.ActiveCfg = Release|.NET
+		{A808D651-A94A-4BC4-93FD-5CAAE77CED85}.Release.Build.0 = Release|.NET
+		{0FA96C5D-042A-4FA1-8384-690E28E413BC}.Debug.ActiveCfg = Debug|.NET
+		{0FA96C5D-042A-4FA1-8384-690E28E413BC}.Debug.Build.0 = Debug|.NET
+		{0FA96C5D-042A-4FA1-8384-690E28E413BC}.Release.ActiveCfg = Release|.NET
+		{0FA96C5D-042A-4FA1-8384-690E28E413BC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
